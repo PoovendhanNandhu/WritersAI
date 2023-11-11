@@ -1,0 +1,48 @@
+/* AnimatedButton.module.css */
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .link-animation {
+    text-decoration: none;
+    color: black; /* Set the color of the text */
+    position: relative;
+    padding: 20px 40px; /* Increase padding to make the button larger */
+    font-size: 1.5rem; /* Increase the font size to make the text larger */
+    border: 2px solid black; /* Add a border if desired */
+    display: inline-flex; /* Use flexbox for aligning the icon and text */
+    align-items: center; /* Center the items vertically */
+    justify-content: center; /* Center the items horizontally */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    cursor: pointer; /* Change cursor to indicate button */
+  }
+  
+  .link-animation:hover {
+    background-color: black; /* Change the background on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  .link-animation .fa-arrow-right {
+    margin-right: 10px; /* Add some space between the icon and text */
+    transition: transform 0.3s ease; /* Smooth transition for the icon movement */
+  }
+  
+  .link-animation:hover .fa-arrow-right {
+    transform: translateX(5px); /* Move the icon to the right on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .link-animation {
+      padding: 15px 30px; /* Slightly smaller padding on smaller screens */
+      font-size: 1.2rem; /* Slightly smaller font size on smaller screens */
+    }
+  
+    .link-animation .fa-arrow-right {
+      margin-right: 8px; /* Adjust space on smaller screens */
+    }
+  }
+  

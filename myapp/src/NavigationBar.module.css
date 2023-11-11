@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .logo {
+    color: black;
+    font-family: 'Edu TAS Beginner', cursive;
+    cursor: pointer;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+  }
+  
+  .navLink:hover {
+    color: grey;
+  }
+  
+  .logo:hover {
+    color: grey;
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .navbar {
+      margin: 10px auto;
+      width: 95%; /* Take up most of the screen */
+    }
+  
+    .navLink {
+      padding: 10px;
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
