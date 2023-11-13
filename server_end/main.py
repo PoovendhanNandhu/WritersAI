@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import openai
 
 app = FastAPI()
-openai.api_key = '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'
+openai.api_key = 'Openai_API'
 
 class GenerateTextRequest(BaseModel):
     prompt: str
