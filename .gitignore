@@ -39,4 +39,4 @@ __pycache__/
 node_modules/
 node_modules
 
-vercel.json
+# vercel.json
