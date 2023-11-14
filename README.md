@@ -29,6 +29,4 @@ We aim to keep refining WritersAI's functionalities and performance. Future upda
 
 Disclaimer:
 
-WritersAI is not designed to replace human writers but to aid them in their creative processes. The AI-generated suggestions should be used responsibly and ethically.
-
-This project is maintained by a dedicated team of developers who are passionate about changing the landscape of writing with AI technology. 
+This is made before the Openai GPT's
